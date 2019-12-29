@@ -3,7 +3,7 @@
 #### Master Build Status
 [![Build Status](https://travis-ci.org/traaittplatform/traaittplatform.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/traaittplatform/traaittplatform?branch=master&svg=true)]
 
-# traaittPlatform [TR]
+# traaittPlatform [ETRX]
 
 traaittPlatform is a fast, easy to use and private decentralized cryptocurrency combined with a powerful ecosystem and an eco-friendly mining algorithm.
 
