@@ -353,6 +353,5 @@ namespace CryptoNote
       "34.85.30.233:23897", //ASIASEEDNODE
       "35.234.143.169:23897", //EUSEEDNODE
       "34.65.28.154:23897"    //EUSEEDNODE
-
     };
 } // namespace CryptoNote
