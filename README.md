@@ -19,8 +19,8 @@ https://supply.traaittPlatform.com
 Blockchain Cache API:
 https://blockapi.traaittPlatform.com
 
-File Archive incl. Miner:
-https://files.traaittPlatform.com
+Binaries:
+https://github.com/traaittPlatform/traaittPlatform/releases
 
 
 
