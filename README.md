@@ -1,7 +1,7 @@
 ![image](https://github.com/traaittPlatform/traaittPlatform/blob/master/include/traaittPlatform.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) 
+![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master)
 
 # traaittPlatform [ETRX]
 
