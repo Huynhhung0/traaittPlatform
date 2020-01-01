@@ -37,7 +37,6 @@ traaittPlatform Proton:
 You can always find the newest Release here: https://github.com/traaittPlatform/traaittPlatform/releases
 
 
-
 # Command Line Interface Wallet
 How to properly use traaittPlatform Cryptocurrency on Apple, Windows or Linux Machines.
 
