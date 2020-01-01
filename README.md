@@ -24,7 +24,6 @@ https://github.com/traaittPlatform/traaittPlatform/releases
 
 
 
-
 # Installing
 
 We offer binary images of the latest releases here: https://files.traaittPlatform.com 
