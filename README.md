@@ -23,9 +23,12 @@ https://blockapi.traaittPlatform.com
 # Installing
 
 We offer binary images of the latest releases here: 
--https://github.com/traaittPlatform/traaittPlatform/releases
--https://github.com/traaittPlatform/traaittPlatform-Proton/releases
-
+```
+https://github.com/traaittPlatform/traaittPlatform/releases
+```
+```
+https://github.com/traaittPlatform/traaittPlatform-Proton/releases
+```
 
 # Graphical User Interface Wallet
 GUI traaittPlatform Cryptocurrency Wallet on Apple, Windows or Linux Machines.
