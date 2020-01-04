@@ -19,14 +19,12 @@ https://supply.traaittPlatform.com
 Blockchain Cache API:
 https://blockapi.traaittPlatform.com
 
-Binaries:
-https://github.com/traaittPlatform/traaittPlatform/releases
-
-
 
 # Installing
 
-We offer binary images of the latest releases here: https://files.traaittPlatform.com 
+We offer binary images of the latest releases here: 
+https://github.com/traaittPlatform/traaittPlatform/releases
+https://github.com/traaittPlatform/traaittPlatform-Proton/releases
 
 
 # Graphical User Interface Wallet
@@ -34,7 +32,7 @@ GUI traaittPlatform Cryptocurrency Wallet on Apple, Windows or Linux Machines.
 
 traaittPlatform Proton:
 
-You can always find the newest Release here: https://github.com/traaittPlatform/traaittPlatform/releases
+You can always find the newest Release here: https://github.com/traaittPlatform/traaittPlatform-Proton/releases
 
 
 # Command Line Interface Wallet
