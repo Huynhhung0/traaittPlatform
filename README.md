@@ -196,7 +196,7 @@ For 64-bit:
 - `mkdir build`
 - `cd build`
 - `cmake -G "Visual Studio 16 2019" -A x64 .. -DBOOST_ROOT=C:/local/boost_1_69_0`
-- `MSBuild traaittPlatform.sln /p:Configuration=Release /m` or `MSBuild src\cli.vcxproj /p:Configuration=Release /m`
+- `MSBuild traaittPlatform.sln /p:Configuration=Release /m:x` or `MSBuild src\cli.vcxproj /p:Configuration=Release /m`
 
 For 32-bit:
 - From the start menu, open 'x86 Native Tools Command Prompt for VS 2019'.
