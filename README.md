@@ -191,12 +191,12 @@ You can build for 32-bit or 64-bit Windows. **If you're not sure, pick 64-bit.**
 ##### Building
 
 For 64-bit:
-- From the start menu, open 'x64 Native Tools Command Prompt for VS 2019'.
+- From the start menu, open 'x64 Native Tools Command Prompt for VS 2019'. 
 - `cd <your_traaittPlatform_directory>`
 - `mkdir build`
 - `cd build`
 - `cmake -G "Visual Studio 16 2019" -A x64 .. -DBOOST_ROOT=C:/local/boost_1_69_0`
-- `MSBuild traaittPlatform.sln /p:Configuration=Release /m:x` or `MSBuild src\cli.vcxproj /p:Configuration=Release /m`
+- `MSBuild traaittPlatform.sln /p:Configuration=Release /m:4` or `MSBuild src\cli.vcxproj /p:Configuration=Release /m:4`
 
 For 32-bit:
 - From the start menu, open 'x86 Native Tools Command Prompt for VS 2019'.
