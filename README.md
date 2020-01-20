@@ -1,4 +1,6 @@
 ![image](https://github.com/traaittPlatform/traaittPlatform/blob/master/include/traaittPlatform.png)
+![Download Count](https://img.shields.io/github/downloads/traaittplatform/traaittplatform/total.svg)
+![Version](https://img.shields.io/github/v/release/traaittplatform/traaittplatform)
 
 #### Master Build Status
 ![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) ![Downloads](https://img.shields.io/github/downloads/traaittPlatform/traaittPlatform/total)
