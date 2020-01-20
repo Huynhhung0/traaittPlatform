@@ -1,7 +1,7 @@
 ![image](https://github.com/traaittPlatform/traaittPlatform/blob/master/include/traaittPlatform.png)
 
 #### Master Build Status
-![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) (https://img.shields.io/github/downloads/traaittPlatform/traaittPlatform/total)
+![Build Status](https://github.com/turtlecoin/turtlecoin/workflows/Build/badge.svg?branch=master) ![Downloads](https://img.shields.io/github/downloads/traaittPlatform/traaittPlatform/total)
 
 # traaittPlatform [ETRX]
 
