@@ -28,7 +28,7 @@ namespace WalletConfig
     const std::string daemonName = "traaittPlatform";
 
     /* The name to call this wallet */
-    const std::string walletName = "traaittPlatform wallet";
+    const std::string walletName = "traaittPlatform cmd Edition";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
