@@ -34,9 +34,9 @@ https://github.com/traaittPlatform/traaittPlatformEnterprise/releases
 # Graphical User Interface Wallet
 GUI traaittPlatform Cryptocurrency Wallet on Apple, Windows or Linux Machines.
 
-traaittPlatform Proton:
+traaittPlatform Enterprise:
 
-You can always find the newest Release here: https://github.com/traaittPlatform/traaittPlatform-Proton/releases
+You can always find the newest Release here: https://github.com/traaittPlatform/traaittPlatformEnterprise/releases
 
 
 # Command Line Interface Wallet
