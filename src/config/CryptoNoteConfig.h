@@ -19,7 +19,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 17; // seconds
+        const uint64_t DIFFICULTY_TARGET = 644; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500000000;
 
@@ -27,7 +27,7 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_MAX_TX_SIZE = 1000000000;
 
-        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 158;
+        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 2717535;
 
         const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW = 40;
 
@@ -42,7 +42,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(74400000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(888888800000000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
@@ -61,7 +61,7 @@ namespace CryptoNote
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
         const char GENESIS_COINBASE_TX_HEX[] =
-            "012801ff000180f8d6f990a5030228326132a6a6cce0ff6762c2a59b563cf25bae5fd49270d8b601f9d8e344bea22101d1089f58eb997f1714be99d31885c1648fdce706c3a01aac92c8e8be6d291513";
+            "012801ff000180a0b2b387916502380d0212c67b5eaa9b075fbbfe470f8687e2566337347d8b39c60ef8bde2b9cf21014577122bae9a2a9298debc577718387264aa058c3fba92608c9bafe7dc0dbb02";
 
         static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
@@ -84,22 +84,22 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = 600;
 
-        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 2;
+        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 8;
 
-        const uint64_t MINIMUM_FEE = UINT64_C(100);
+        const uint64_t MINIMUM_FEE = UINT64_C(10);
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V1                              = 4;
+        const uint64_t MAXIMUM_MIXIN_V1                              = 10;
 
-        const uint64_t MINIMUM_MIXIN_V2                              = 4;
+        const uint64_t MINIMUM_MIXIN_V2                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V2                              = 7;
+        const uint64_t MAXIMUM_MIXIN_V2                              = 10;
 
-        const uint64_t MINIMUM_MIXIN_V3                              = 3;
+        const uint64_t MINIMUM_MIXIN_V3                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V3                              = 3;
+        const uint64_t MAXIMUM_MIXIN_V3                              = 10;
 
         /* The heights to activate the mixin limits at */
         const uint32_t MIXIN_LIMITS_V1_HEIGHT = 7000000;
@@ -165,12 +165,12 @@ namespace CryptoNote
 
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 145'000'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 145'000'000'000'00000000;
 
 
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 145'010'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 145'010'000'000'00000000;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
 
@@ -304,11 +304,11 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 23897;
+    const int P2P_DEFAULT_PORT = 24497;
 
-    const int RPC_DEFAULT_PORT = 23896;
+    const int RPC_DEFAULT_PORT = 24496;
 
-    const int SERVICE_DEFAULT_PORT = 8337;
+    const int SERVICE_DEFAULT_PORT = 8447;
 
     const size_t P2P_LOCAL_WHITE_PEERLIST_LIMIT = 1000;
 
@@ -352,14 +352,14 @@ namespace CryptoNote
     const std::string LICENSE_URL = "https://github.com/traaittPlatform/traaittPlatform/blob/master/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-        {0xb1, 0x4c, 0x4a, 0x7c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf4, 0x93, 0xa3, 0xb3, 0xc1, 0x43, 0xe3}};
+        {0xb1, 0x4c, 0x4a, 0x7c, 0xcf, 0x56, 0x57, 0x45, 0x65, 0xf9, 0x93, 0xa3, 0xb3, 0xc4, 0x43, 0xe3}};
 
     const char *const SEED_NODES[] = {
-      "35.185.104.116:23897", //USASEEDNODE
-      "35.236.125.196:23897", //USASEEDNODE
-      "35.229.225.178:23897", //ASIASEEDNODE
-      "34.85.30.233:23897", //ASIASEEDNODE
-      "35.234.143.169:23897", //EUSEEDNODE
-      "34.65.28.154:23897"    //EUSEEDNODE
+      "35.185.104.116:24497", //USASEEDNODE
+      "35.236.125.196:24497", //USASEEDNODE
+      "35.229.225.178:24497", //ASIASEEDNODE
+      "34.85.30.233:24497", //ASIASEEDNODE
+      "35.234.143.169:24497", //EUSEEDNODE
+      "34.65.28.154:24497"    //EUSEEDNODE
     };
 } // namespace CryptoNote

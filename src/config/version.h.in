@@ -4,10 +4,10 @@
 #define PROJECT_NAME "traaittPlatform"
 #define PROJECT_SITE "https://www.traaittplatform.com"
 #define PROJECT_COPYRIGHT "Copyright 2020, traaittPlatform Team"
-#define APP_VER_MAJOR 1
-#define APP_VER_MINOR 1
-#define APP_VER_REV 0
-#define APP_VER_BUILD 5
+#define APP_VER_MAJOR 4
+#define APP_VER_MINOR 4
+#define APP_VER_REV 7
+#define APP_VER_BUILD 8
 
 #define BUILD_COMMIT_ID "@VERSION@"
 #define PROJECT_VERSION STR(APP_VER_MAJOR) "." STR(APP_VER_MINOR) "." STR(APP_VER_REV)

@@ -12,7 +12,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string_view addressPrefix = "TR";
+    const std::string_view addressPrefix = "eTRX";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
     const std::string ticker = "ETRX";
@@ -32,7 +32,7 @@ namespace WalletConfig
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "traaittService";
+    const std::string walletdName = "traaitt-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
@@ -44,7 +44,7 @@ namespace WalletConfig
     const uint8_t numDecimalPlaces = CryptoNote::parameters::CRYPTONOTE_DISPLAY_DECIMAL_POINT;
 
     /* The length of a standard address for your coin */
-    const uint16_t standardAddressLength = 97;
+    const uint16_t standardAddressLength = 99;
 
     /* The length of an integrated address for your coin - It's the same as
        a normal address, but there is a paymentID included in there - since
@@ -60,7 +60,7 @@ namespace WalletConfig
     const uint64_t minimumFee = CryptoNote::parameters::MINIMUM_FEE;
 
     /* The minimum amount allowed to be sent - usually 1 (in ATOMIC units!) */
-    const uint64_t minimumSend = 7;
+    const uint64_t minimumSend = 1;
 
     /* Is a mixin of zero disabled on your network? */
     const bool mixinZeroDisabled = false;
