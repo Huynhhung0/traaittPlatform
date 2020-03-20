@@ -61,7 +61,7 @@ namespace CryptoNote
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
         const char GENESIS_COINBASE_TX_HEX[] =
-            "012801ff000180a0b2b387916502380d0212c67b5eaa9b075fbbfe470f8687e2566337347d8b39c60ef8bde2b9cf21014577122bae9a2a9298debc577718387264aa058c3fba92608c9bafe7dc0dbb02";
+            "012801ff00018080e983b1de16026f47f7ef7658bb104f6afde4ec11447762fefda5adc7e8896bd051f437aae80121010e79fca55515eaeceda8ef89c702e5c32cfb7367e938288d4b1feb78c6f760f5";
 
         static_assert(
             sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
@@ -358,7 +358,7 @@ namespace CryptoNote
       "35.185.104.116:24497", //USASEEDNODE
       "35.236.125.196:24497", //USASEEDNODE
       "35.229.225.178:24497", //ASIASEEDNODE
-      "34.85.30.233:24497", //ASIASEEDNODE
+      "34.85.30.233:24497",   //ASIASEEDNODE
       "35.234.143.169:24497", //EUSEEDNODE
       "34.65.28.154:24497"    //EUSEEDNODE
     };
