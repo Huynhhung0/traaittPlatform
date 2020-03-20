@@ -27,7 +27,7 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_MAX_TX_SIZE = 1000000000;
 
-        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 2717535;
+        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 461586806;
 
         const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW = 40;
 
@@ -91,15 +91,15 @@ namespace CryptoNote
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V1                              = 10;
+        const uint64_t MAXIMUM_MIXIN_V1                              = 100;
 
         const uint64_t MINIMUM_MIXIN_V2                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V2                              = 10;
+        const uint64_t MAXIMUM_MIXIN_V2                              = 100;
 
         const uint64_t MINIMUM_MIXIN_V3                              = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V3                              = 10;
+        const uint64_t MAXIMUM_MIXIN_V3                              = 100;
 
         /* The heights to activate the mixin limits at */
         const uint32_t MIXIN_LIMITS_V1_HEIGHT = 7000000;
@@ -163,14 +163,14 @@ namespace CryptoNote
         const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 1300000;
 
 
-        /* This is enforced on the daemon side. An output > 250 billion causes
+        /* This is enforced on the daemon side. An output > 2.22 million causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 8'888'88'00000000;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 2'222'22'00000000;
 
 
-        /* This is enforced on the client side. An output > 1 billion will not
+        /* This is enforced on the client side. An output > 100 thousand will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 8'888'88'00000000;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 100'000'00000000;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 1;
 
