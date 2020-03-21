@@ -193,10 +193,10 @@ add_dependencies(zedwallet version)
 set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "traaittPlatformd")
 set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "cmdwallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "cmdwalletbeta")
-set_property(TARGET WalletService PROPERTY OUTPUT_NAME "traaittService")
+set_property(TARGET WalletService PROPERTY OUTPUT_NAME "traaitt-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "MINER")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "Cryptotest")
-set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "walletAPI")
+set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "wallet-api")
 set_property(TARGET WalletUpgrader PROPERTY OUTPUT_NAME "walletUpgrader")
 
 # Additional make targets, can be used to build a subset of the targets
